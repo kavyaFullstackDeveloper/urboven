@@ -5,6 +5,38 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .favorites-page h2 {
   margin-bottom: 20px;
+  font-size: 26px;
+  color: #141b2a;
+  text-align: center;
+}
+
+/* Responsive Layouts */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .favorites-page {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .favorites-page h2 {
+    font-size: 22px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .favorites-page {
+    margin-top: 60px;
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  .favorites-page h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
 }

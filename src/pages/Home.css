@@ -1,43 +1,4 @@
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 20px;
-  background: white;
-  position: fixed;
-  top: 0;
-  left: 0; right: 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-.logo { font-weight: bold; font-size: 20px; cursor: pointer; }
-.menu button { margin-left: 10px; background:none; border:none; cursor: pointer; }
-
-.home {
-  padding-top: 70px;
-  padding: 20px;
-}
-
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; 
-  gap: 20px;
-  padding: 40px 20px;
-}
-
-
-.cards {
-  width: 65vw;
-   display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
+/* ================= NAVBAR ================= */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -73,6 +34,35 @@
   transform: scale(1.05);
 }
 
+/* ================= HOME LAYOUT ================= */
+.home {
+  padding-top: 80px;
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  gap: 20px;
+  padding: 40px 20px;
+}
+
+/* ================= PROPERTY CARDS ================= */
+.cards {
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ================= HELP SIDEBAR ================= */
 .help-sidebar {
   width: 30vw;
   background: #ffffff;
@@ -82,8 +72,8 @@
   height: fit-content;
   position: sticky;
   top: 90px;
-  transition: all 0.3s ease-in-out;
   align-self: flex-start;
+  transition: all 0.3s ease-in-out;
 }
 .help-sidebar h3 {
   margin-bottom: 15px;
@@ -117,12 +107,12 @@
   font-weight: bold;
   cursor: pointer;
   transition: transform 0.2s;
-  position: sticky;
 }
 .help-sidebar button:hover {
   transform: translateY(-2px);
 }
 
+/* ================= HERO SECTION ================= */
 .hero {
   height: 50vh;
   background: url("https://picsum.photos/1920/1080?blur=2") no-repeat center center/cover;
@@ -130,7 +120,6 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 0px; 
 }
 .hero-overlay {
   background: rgba(0,0,0,0.4);
@@ -144,7 +133,7 @@
   margin-bottom: 20px;
 }
 
-
+/* ================= TOP RATED SECTION ================= */
 .top-rated {
   padding: 40px 20px;
   background: #f9f9f9;
@@ -158,38 +147,60 @@
   gap: 20px;
   flex-wrap: wrap;
 }
-.help-sidebar {
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 25px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+
+/* ================= RESPONSIVE ================= */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards {
+    width: 90vw;
+  }
+  .help-sidebar {
+    width: 90vw;
+    position: relative;
+    top: auto;
+  }
+  .hero-overlay h1 {
+    font-size: 28px;
+  }
+  .menu button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
 }
-.help-sidebar h3 {
-  margin-bottom: 15px;
-  font-size: 18px;
-  color: #0066ff;
-  text-align: center;
-}
-.help-sidebar form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-.help-sidebar input {
-  padding: 12px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-}
-.help-sidebar button {
-  background: linear-gradient(90deg, #0066ff, #00ccff);
-  color: white;
-  padding: 12px;
-  border: none;
-  border-radius: 10px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.2s;
-}
-.help-sidebar button:hover {
-  transform: translateY(-2px);
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px 15px;
+    text-align: center;
+  }
+  .logo {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+  }
+  .hero {
+    height: 40vh;
+  }
+  .hero-overlay h1 {
+    font-size: 22px;
+  }
+  .cards {
+    width: 100%;
+  }
+  .help-sidebar {
+    width: 100%;
+    margin-top: 20px;
+  }
 }

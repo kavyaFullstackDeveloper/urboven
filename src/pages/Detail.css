@@ -1,19 +1,48 @@
 .detail {
-    margin-top: 50px;
-     padding: 20px; }
-
-.detail h2{
-    color: #141b2a;
+  margin-top: 50px;
+  padding: 20px;
 }
-.back { margin-top: 10px; margin-bottom: 10px; cursor: pointer; background:none; border:none; color:blue; }
-.carousel { position: relative; max-width: 700px; margin: 20px auto; }
-.carousel img { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; }
-.carousel button { position: absolute; top: 50%; background: white; border: none; padding: 6px; cursor: pointer; }
+
+/* Title */
+.detail h2 {
+  color: #141b2a;
+}
+
+/* Back button */
+.back {
+  margin: 10px 0;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: blue;
+  font-size: 14px;
+}
+
+/* Small carousel (not hero) */
+.carousel {
+  position: relative;
+  max-width: 700px;
+  margin: 20px auto;
+}
+.carousel img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.carousel button {
+  position: absolute;
+  top: 50%;
+  background: white;
+  border: none;
+  padding: 6px;
+  cursor: pointer;
+  border-radius: 50%;
+}
 .carousel .left { left: 10px; }
 .carousel .right { right: 10px; }
-.desc { margin: 20px 0; }
-.price { font-size: 20px; font-weight: bold; }
 
+/* Full screen hero carousel */
 .hero {
   width: 99vw;
   height: 99vh;
@@ -40,7 +69,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   border: none;
   padding: 10px 15px;
   font-size: 24px;
@@ -50,6 +79,7 @@
 .hero-carousel .left { left: 20px; }
 .hero-carousel .right { right: 20px; }
 
+/* Content */
 .detail-content {
   max-width: 1000px;
   margin: 40px auto;
@@ -66,6 +96,8 @@
   color: #0066ff;
   margin-bottom: 20px;
 }
+
+/* Gallery */
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -79,6 +111,8 @@
   border-radius: 10px;
   box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
+
+/* Seller Contact Card */
 .contact-card {
   background: #f9f9f9;
   padding: 15px;
@@ -86,6 +120,8 @@
   margin: 20px 0;
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+/* Help Form */
 .help-form {
   margin-top: 30px;
   padding: 20px;
@@ -117,6 +153,7 @@
   margin-top: 10px;
 }
 
+/* Floating icons (favorite/share) */
 .detail-icons {
   position: absolute;
   top: 20px;
@@ -128,4 +165,85 @@
 }
 .detail-icons span:hover {
   transform: scale(1.1);
+}
+
+/* ========================
+   ✅ Responsive Styles
+   ======================== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .detail-content {
+    padding: 15px;
+    margin: 20px auto;
+  }
+
+  .detail-content h2 {
+    font-size: 24px;
+  }
+
+  .detail-content .price {
+    font-size: 20px;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .hero-carousel button {
+    font-size: 20px;
+    padding: 8px 12px;
+  }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+  .hero-carousel {
+    height: 70vh;
+  }
+  .hero-carousel img {
+    height: 70vh;
+  }
+
+  .detail-content {
+    padding: 10px;
+  }
+
+  .detail-content h2 {
+    font-size: 20px;
+  }
+
+  .detail-content .price {
+    font-size: 18px;
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .gallery img {
+    height: 160px;
+  }
+
+  .help-form {
+    padding: 15px;
+  }
+
+  .help-form input {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .help-form button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .detail-icons {
+    font-size: 22px;
+    gap: 8px;
+    top: 10px;
+    right: 10px;
+  }
 }
