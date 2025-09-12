@@ -1,0 +1,1252 @@
+[
+  {
+    "id": 1,
+    "title": "Hilltop Villas",
+    "bhk": "2 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 20200000,
+    "avg_price": 19500000,
+    "is_villa": false,
+    "days_ago": 8,
+    "seller_name": "Rajshree Builders",
+    "seller_contact": "7461831187",
+    "description": "2 BHK premium property located in Mumbai, Maharashtra, developed by Rajshree Builders.",
+    "images": [
+      "https://picsum.photos/id/158/600/400",
+      "https://picsum.photos/id/121/600/400",
+      "https://picsum.photos/id/119/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/274/800/500",
+      "https://picsum.photos/id/204/800/500",
+      "https://picsum.photos/id/248/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/218/800/500"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Skyline Heights",
+    "bhk": "2 BHK",
+    "location": "Bangalore, Karnataka",
+    "price": 16200000,
+    "avg_price": 16100000,
+    "is_villa": true,
+    "days_ago": 13,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "8248800451",
+    "description": "2 BHK premium property located in Bangalore, Karnataka, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/163/600/400",
+      "https://picsum.photos/id/113/600/400",
+      "https://picsum.photos/id/181/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/210/800/500",
+      "https://picsum.photos/id/294/800/500",
+      "https://picsum.photos/id/272/800/500",
+      "https://picsum.photos/id/242/800/500",
+      "https://picsum.photos/id/251/800/500"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Skyline Heights",
+    "bhk": "4 BHK",
+    "location": "Bangalore, Karnataka",
+    "price": 18800000,
+    "avg_price": 18500000,
+    "is_villa": false,
+    "days_ago": 12,
+    "seller_name": "Ocean View Builders",
+    "seller_contact": "7634526376",
+    "description": "4 BHK premium property located in Bangalore, Karnataka, developed by Ocean View Builders.",
+    "images": [
+      "https://picsum.photos/id/176/600/400",
+      "https://picsum.photos/id/118/600/400",
+      "https://picsum.photos/id/195/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/209/800/500",
+      "https://picsum.photos/id/211/800/500",
+      "https://picsum.photos/id/300/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/260/800/500"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hilltop Villas",
+    "bhk": "1 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 15700000,
+    "avg_price": 15400000,
+    "is_villa": false,
+    "days_ago": 2,
+    "seller_name": "Royal Orchid Builders",
+    "seller_contact": "9014311647",
+    "description": "1 BHK premium property located in Pune, Maharashtra, developed by Royal Orchid Builders.",
+    "images": [
+      "https://picsum.photos/id/113/600/400",
+      "https://picsum.photos/id/154/600/400",
+      "https://picsum.photos/id/156/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/201/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/220/800/500",
+      "https://picsum.photos/id/249/800/500",
+      "https://picsum.photos/id/299/800/500"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Rajshree Eleven East",
+    "bhk": "2 BHK",
+    "location": "Kolkata, West Bengal",
+    "price": 15100000,
+    "avg_price": 14800000,
+    "is_villa": false,
+    "days_ago": 24,
+    "seller_name": "Sunshine Constructions",
+    "seller_contact": "7098252465",
+    "description": "2 BHK premium property located in Kolkata, West Bengal, developed by Sunshine Constructions.",
+    "images": [
+      "https://picsum.photos/id/192/600/400",
+      "https://picsum.photos/id/162/600/400",
+      "https://picsum.photos/id/165/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/238/800/500",
+      "https://picsum.photos/id/232/800/500",
+      "https://picsum.photos/id/285/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/205/800/500"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Green Valley Apartments",
+    "bhk": "2 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 25700000,
+    "avg_price": 24900000,
+    "is_villa": true,
+    "days_ago": 12,
+    "seller_name": "Skyline Group",
+    "seller_contact": "8689049358",
+    "description": "2 BHK premium property located in Pune, Maharashtra, developed by Skyline Group.",
+    "images": [
+      "https://picsum.photos/id/180/600/400",
+      "https://picsum.photos/id/169/600/400",
+      "https://picsum.photos/id/185/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/251/800/500",
+      "https://picsum.photos/id/275/800/500",
+      "https://picsum.photos/id/280/800/500",
+      "https://picsum.photos/id/284/800/500",
+      "https://picsum.photos/id/242/800/500"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sunshine Residency",
+    "bhk": "1 BHK",
+    "location": "Kolkata, West Bengal",
+    "price": 13800000,
+    "avg_price": 12800000,
+    "is_villa": false,
+    "days_ago": 13,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "8712650473",
+    "description": "1 BHK premium property located in Kolkata, West Bengal, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/200/600/400",
+      "https://picsum.photos/id/199/600/400",
+      "https://picsum.photos/id/128/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/287/800/500",
+      "https://picsum.photos/id/248/800/500",
+      "https://picsum.photos/id/290/800/500",
+      "https://picsum.photos/id/225/800/500",
+      "https://picsum.photos/id/201/800/500"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Palm Residency Villas",
+    "bhk": "3 BHK",
+    "location": "Delhi, Delhi",
+    "price": 16300000,
+    "avg_price": 15600000,
+    "is_villa": true,
+    "days_ago": 14,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "9982695856",
+    "description": "3 BHK premium property located in Delhi, Delhi, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/149/600/400",
+      "https://picsum.photos/id/165/600/400",
+      "https://picsum.photos/id/199/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/232/800/500",
+      "https://picsum.photos/id/201/800/500",
+      "https://picsum.photos/id/265/800/500",
+      "https://picsum.photos/id/260/800/500",
+      "https://picsum.photos/id/249/800/500"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Skyline Heights",
+    "bhk": "4 BHK",
+    "location": "Ahmedabad, Gujarat",
+    "price": 26600000,
+    "avg_price": 26500000,
+    "is_villa": false,
+    "days_ago": 23,
+    "seller_name": "Skyline Group",
+    "seller_contact": "8583472598",
+    "description": "4 BHK premium property located in Ahmedabad, Gujarat, developed by Skyline Group.",
+    "images": [
+      "https://picsum.photos/id/164/600/400",
+      "https://picsum.photos/id/144/600/400",
+      "https://picsum.photos/id/178/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/220/800/500",
+      "https://picsum.photos/id/273/800/500",
+      "https://picsum.photos/id/299/800/500",
+      "https://picsum.photos/id/221/800/500",
+      "https://picsum.photos/id/282/800/500"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Cityscape Apartments",
+    "bhk": "1 BHK",
+    "location": "Jaipur, Rajasthan",
+    "price": 24700000,
+    "avg_price": 23700000,
+    "is_villa": false,
+    "days_ago": 25,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "9992677663",
+    "description": "1 BHK premium property located in Jaipur, Rajasthan, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/195/600/400",
+      "https://picsum.photos/id/136/600/400",
+      "https://picsum.photos/id/165/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/284/800/500",
+      "https://picsum.photos/id/299/800/500",
+      "https://picsum.photos/id/254/800/500",
+      "https://picsum.photos/id/259/800/500",
+      "https://picsum.photos/id/208/800/500"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Royal Orchid Residency",
+    "bhk": "3 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 14000000,
+    "avg_price": 13200000,
+    "is_villa": true,
+    "days_ago": 3,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "7724257645",
+    "description": "3 BHK premium property located in Mumbai, Maharashtra, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/123/600/400",
+      "https://picsum.photos/id/154/600/400",
+      "https://picsum.photos/id/185/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/256/800/500",
+      "https://picsum.photos/id/258/800/500",
+      "https://picsum.photos/id/243/800/500",
+      "https://picsum.photos/id/286/800/500",
+      "https://picsum.photos/id/251/800/500"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Palm Residency Villas",
+    "bhk": "4 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 28700000,
+    "avg_price": 28400000,
+    "is_villa": true,
+    "days_ago": 6,
+    "seller_name": "Ocean View Builders",
+    "seller_contact": "8419303167",
+    "description": "4 BHK premium property located in Mumbai, Maharashtra, developed by Ocean View Builders.",
+    "images": [
+      "https://picsum.photos/id/160/600/400",
+      "https://picsum.photos/id/146/600/400",
+      "https://picsum.photos/id/176/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/293/800/500",
+      "https://picsum.photos/id/271/800/500",
+      "https://picsum.photos/id/227/800/500",
+      "https://picsum.photos/id/299/800/500",
+      "https://picsum.photos/id/287/800/500"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Green Valley Apartments",
+    "bhk": "4 BHK",
+    "location": "Ahmedabad, Gujarat",
+    "price": 12800000,
+    "avg_price": 12500000,
+    "is_villa": false,
+    "days_ago": 20,
+    "seller_name": "Royal Orchid Builders",
+    "seller_contact": "9892996431",
+    "description": "4 BHK premium property located in Ahmedabad, Gujarat, developed by Royal Orchid Builders.",
+    "images": [
+      "https://picsum.photos/id/183/600/400",
+      "https://picsum.photos/id/166/600/400",
+      "https://picsum.photos/id/128/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/204/800/500",
+      "https://picsum.photos/id/242/800/500",
+      "https://picsum.photos/id/298/800/500",
+      "https://picsum.photos/id/268/800/500",
+      "https://picsum.photos/id/222/800/500"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Ocean View Residency",
+    "bhk": "3 BHK",
+    "location": "Delhi, Delhi",
+    "price": 27300000,
+    "avg_price": 27100000,
+    "is_villa": false,
+    "days_ago": 18,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "9377771267",
+    "description": "3 BHK premium property located in Delhi, Delhi, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/133/600/400",
+      "https://picsum.photos/id/152/600/400",
+      "https://picsum.photos/id/190/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/286/800/500",
+      "https://picsum.photos/id/204/800/500",
+      "https://picsum.photos/id/269/800/500",
+      "https://picsum.photos/id/257/800/500",
+      "https://picsum.photos/id/265/800/500"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Hilltop Villas",
+    "bhk": "4 BHK",
+    "location": "Delhi, Delhi",
+    "price": 16700000,
+    "avg_price": 16400000,
+    "is_villa": true,
+    "days_ago": 23,
+    "seller_name": "Royal Orchid Builders",
+    "seller_contact": "8179254946",
+    "description": "4 BHK premium property located in Delhi, Delhi, developed by Royal Orchid Builders.",
+    "images": [
+      "https://picsum.photos/id/192/600/400",
+      "https://picsum.photos/id/182/600/400",
+      "https://picsum.photos/id/160/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/277/800/500",
+      "https://picsum.photos/id/254/800/500",
+      "https://picsum.photos/id/300/800/500",
+      "https://picsum.photos/id/211/800/500",
+      "https://picsum.photos/id/215/800/500"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Palm Residency Villas",
+    "bhk": "1 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 25900000,
+    "avg_price": 25100000,
+    "is_villa": true,
+    "days_ago": 4,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "8353003246",
+    "description": "1 BHK premium property located in Mumbai, Maharashtra, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/104/600/400",
+      "https://picsum.photos/id/159/600/400",
+      "https://picsum.photos/id/198/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/293/800/500",
+      "https://picsum.photos/id/240/800/500",
+      "https://picsum.photos/id/212/800/500",
+      "https://picsum.photos/id/258/800/500",
+      "https://picsum.photos/id/218/800/500"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Green Valley Apartments",
+    "bhk": "1 BHK",
+    "location": "Chandigarh, Punjab",
+    "price": 28900000,
+    "avg_price": 28800000,
+    "is_villa": true,
+    "days_ago": 11,
+    "seller_name": "Ocean View Builders",
+    "seller_contact": "9895542599",
+    "description": "1 BHK premium property located in Chandigarh, Punjab, developed by Ocean View Builders.",
+    "images": [
+      "https://picsum.photos/id/170/600/400",
+      "https://picsum.photos/id/131/600/400",
+      "https://picsum.photos/id/174/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/250/800/500",
+      "https://picsum.photos/id/291/800/500",
+      "https://picsum.photos/id/268/800/500",
+      "https://picsum.photos/id/245/800/500",
+      "https://picsum.photos/id/230/800/500"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Ocean View Residency",
+    "bhk": "1 BHK",
+    "location": "Kolkata, West Bengal",
+    "price": 16800000,
+    "avg_price": 16400000,
+    "is_villa": true,
+    "days_ago": 16,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "7037640349",
+    "description": "1 BHK premium property located in Kolkata, West Bengal, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/133/600/400",
+      "https://picsum.photos/id/119/600/400",
+      "https://picsum.photos/id/112/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/201/800/500",
+      "https://picsum.photos/id/274/800/500",
+      "https://picsum.photos/id/291/800/500",
+      "https://picsum.photos/id/265/800/500",
+      "https://picsum.photos/id/251/800/500"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Ocean View Residency",
+    "bhk": "1 BHK",
+    "location": "Kolkata, West Bengal",
+    "price": 10500000,
+    "avg_price": 10200000,
+    "is_villa": true,
+    "days_ago": 17,
+    "seller_name": "Rajshree Builders",
+    "seller_contact": "8433864586",
+    "description": "1 BHK premium property located in Kolkata, West Bengal, developed by Rajshree Builders.",
+    "images": [
+      "https://picsum.photos/id/200/600/400",
+      "https://picsum.photos/id/143/600/400",
+      "https://picsum.photos/id/124/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/215/800/500",
+      "https://picsum.photos/id/243/800/500",
+      "https://picsum.photos/id/260/800/500",
+      "https://picsum.photos/id/269/800/500",
+      "https://picsum.photos/id/251/800/500"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Cityscape Apartments",
+    "bhk": "4 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 10800000,
+    "avg_price": 9900000,
+    "is_villa": false,
+    "days_ago": 8,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8480287958",
+    "description": "4 BHK premium property located in Pune, Maharashtra, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/171/600/400",
+      "https://picsum.photos/id/118/600/400",
+      "https://picsum.photos/id/180/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/217/800/500",
+      "https://picsum.photos/id/281/800/500",
+      "https://picsum.photos/id/224/800/500",
+      "https://picsum.photos/id/289/800/500",
+      "https://picsum.photos/id/267/800/500"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Lakefront Towers",
+    "bhk": "3 BHK",
+    "location": "Jaipur, Rajasthan",
+    "price": 6000000,
+    "avg_price": 5000000,
+    "is_villa": true,
+    "days_ago": 12,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "7311492272",
+    "description": "3 BHK premium property located in Jaipur, Rajasthan, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/131/600/400",
+      "https://picsum.photos/id/168/600/400",
+      "https://picsum.photos/id/111/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/238/800/500",
+      "https://picsum.photos/id/258/800/500",
+      "https://picsum.photos/id/280/800/500",
+      "https://picsum.photos/id/214/800/500",
+      "https://picsum.photos/id/238/800/500"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Lakefront Towers",
+    "bhk": "3 BHK",
+    "location": "Jaipur, Rajasthan",
+    "price": 23200000,
+    "avg_price": 23000000,
+    "is_villa": true,
+    "days_ago": 20,
+    "seller_name": "Ocean View Builders",
+    "seller_contact": "7827218877",
+    "description": "3 BHK premium property located in Jaipur, Rajasthan, developed by Ocean View Builders.",
+    "images": [
+      "https://picsum.photos/id/155/600/400",
+      "https://picsum.photos/id/121/600/400",
+      "https://picsum.photos/id/120/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/231/800/500",
+      "https://picsum.photos/id/270/800/500",
+      "https://picsum.photos/id/283/800/500",
+      "https://picsum.photos/id/275/800/500",
+      "https://picsum.photos/id/212/800/500"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Hilltop Villas",
+    "bhk": "3 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 23900000,
+    "avg_price": 23400000,
+    "is_villa": false,
+    "days_ago": 19,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "8123895245",
+    "description": "3 BHK premium property located in Mumbai, Maharashtra, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/166/600/400",
+      "https://picsum.photos/id/185/600/400",
+      "https://picsum.photos/id/191/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/265/800/500",
+      "https://picsum.photos/id/264/800/500",
+      "https://picsum.photos/id/295/800/500",
+      "https://picsum.photos/id/252/800/500",
+      "https://picsum.photos/id/202/800/500"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Hilltop Villas",
+    "bhk": "4 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 6300000,
+    "avg_price": 5400000,
+    "is_villa": false,
+    "days_ago": 25,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "7859856842",
+    "description": "4 BHK premium property located in Pune, Maharashtra, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/168/600/400",
+      "https://picsum.photos/id/187/600/400",
+      "https://picsum.photos/id/108/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/258/800/500",
+      "https://picsum.photos/id/268/800/500",
+      "https://picsum.photos/id/294/800/500",
+      "https://picsum.photos/id/217/800/500",
+      "https://picsum.photos/id/275/800/500"
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Ocean View Residency",
+    "bhk": "2 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 25500000,
+    "avg_price": 25000000,
+    "is_villa": false,
+    "days_ago": 29,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "7822932256",
+    "description": "2 BHK premium property located in Mumbai, Maharashtra, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/123/600/400",
+      "https://picsum.photos/id/181/600/400",
+      "https://picsum.photos/id/140/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/291/800/500",
+      "https://picsum.photos/id/284/800/500",
+      "https://picsum.photos/id/247/800/500",
+      "https://picsum.photos/id/200/800/500",
+      "https://picsum.photos/id/224/800/500"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Lakefront Towers",
+    "bhk": "2 BHK",
+    "location": "Delhi, Delhi",
+    "price": 12200000,
+    "avg_price": 12000000,
+    "is_villa": false,
+    "days_ago": 11,
+    "seller_name": "Royal Orchid Builders",
+    "seller_contact": "9855026530",
+    "description": "2 BHK premium property located in Delhi, Delhi, developed by Royal Orchid Builders.",
+    "images": [
+      "https://picsum.photos/id/145/600/400",
+      "https://picsum.photos/id/146/600/400",
+      "https://picsum.photos/id/176/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/235/800/500",
+      "https://picsum.photos/id/240/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/230/800/500",
+      "https://picsum.photos/id/208/800/500"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Green Valley Apartments",
+    "bhk": "3 BHK",
+    "location": "Hyderabad, Telangana",
+    "price": 29200000,
+    "avg_price": 28200000,
+    "is_villa": true,
+    "days_ago": 18,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8539029521",
+    "description": "3 BHK premium property located in Hyderabad, Telangana, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/155/600/400",
+      "https://picsum.photos/id/114/600/400",
+      "https://picsum.photos/id/119/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/251/800/500",
+      "https://picsum.photos/id/232/800/500",
+      "https://picsum.photos/id/260/800/500",
+      "https://picsum.photos/id/262/800/500",
+      "https://picsum.photos/id/269/800/500"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Sunshine Residency",
+    "bhk": "4 BHK",
+    "location": "Bangalore, Karnataka",
+    "price": 16500000,
+    "avg_price": 16000000,
+    "is_villa": false,
+    "days_ago": 20,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "9194767316",
+    "description": "4 BHK premium property located in Bangalore, Karnataka, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/121/600/400",
+      "https://picsum.photos/id/153/600/400",
+      "https://picsum.photos/id/136/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/228/800/500",
+      "https://picsum.photos/id/293/800/500",
+      "https://picsum.photos/id/278/800/500",
+      "https://picsum.photos/id/252/800/500",
+      "https://picsum.photos/id/202/800/500"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Rajshree Eleven East",
+    "bhk": "4 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 17400000,
+    "avg_price": 17000000,
+    "is_villa": true,
+    "days_ago": 6,
+    "seller_name": "Palm Developers",
+    "seller_contact": "8807722954",
+    "description": "4 BHK premium property located in Mumbai, Maharashtra, developed by Palm Developers.",
+    "images": [
+      "https://picsum.photos/id/171/600/400",
+      "https://picsum.photos/id/180/600/400",
+      "https://picsum.photos/id/146/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/203/800/500",
+      "https://picsum.photos/id/216/800/500",
+      "https://picsum.photos/id/200/800/500",
+      "https://picsum.photos/id/262/800/500",
+      "https://picsum.photos/id/257/800/500"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Cityscape Apartments",
+    "bhk": "3 BHK",
+    "location": "Kolkata, West Bengal",
+    "price": 17100000,
+    "avg_price": 16300000,
+    "is_villa": true,
+    "days_ago": 9,
+    "seller_name": "Palm Developers",
+    "seller_contact": "8760643674",
+    "description": "3 BHK premium property located in Kolkata, West Bengal, developed by Palm Developers.",
+    "images": [
+      "https://picsum.photos/id/121/600/400",
+      "https://picsum.photos/id/182/600/400",
+      "https://picsum.photos/id/104/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/201/800/500",
+      "https://picsum.photos/id/268/800/500",
+      "https://picsum.photos/id/271/800/500",
+      "https://picsum.photos/id/208/800/500",
+      "https://picsum.photos/id/221/800/500"
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Green Valley Apartments",
+    "bhk": "2 BHK",
+    "location": "Hyderabad, Telangana",
+    "price": 14400000,
+    "avg_price": 14300000,
+    "is_villa": true,
+    "days_ago": 30,
+    "seller_name": "Hilltop Estates",
+    "seller_contact": "7794202659",
+    "description": "2 BHK premium property located in Hyderabad, Telangana, developed by Hilltop Estates.",
+    "images": [
+      "https://picsum.photos/id/156/600/400",
+      "https://picsum.photos/id/200/600/400",
+      "https://picsum.photos/id/168/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/270/800/500",
+      "https://picsum.photos/id/270/800/500",
+      "https://picsum.photos/id/249/800/500",
+      "https://picsum.photos/id/224/800/500",
+      "https://picsum.photos/id/299/800/500"
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Palm Residency Villas",
+    "bhk": "4 BHK",
+    "location": "Chennai, Tamil Nadu",
+    "price": 16600000,
+    "avg_price": 16000000,
+    "is_villa": true,
+    "days_ago": 16,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "8881343234",
+    "description": "4 BHK premium property located in Chennai, Tamil Nadu, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/185/600/400",
+      "https://picsum.photos/id/158/600/400",
+      "https://picsum.photos/id/112/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/269/800/500",
+      "https://picsum.photos/id/263/800/500",
+      "https://picsum.photos/id/276/800/500",
+      "https://picsum.photos/id/281/800/500",
+      "https://picsum.photos/id/266/800/500"
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Skyline Heights",
+    "bhk": "2 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 23000000,
+    "avg_price": 22900000,
+    "is_villa": true,
+    "days_ago": 5,
+    "seller_name": "Hilltop Estates",
+    "seller_contact": "8542064776",
+    "description": "2 BHK premium property located in Mumbai, Maharashtra, developed by Hilltop Estates.",
+    "images": [
+      "https://picsum.photos/id/196/600/400",
+      "https://picsum.photos/id/104/600/400",
+      "https://picsum.photos/id/181/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/235/800/500",
+      "https://picsum.photos/id/201/800/500",
+      "https://picsum.photos/id/283/800/500",
+      "https://picsum.photos/id/230/800/500",
+      "https://picsum.photos/id/276/800/500"
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Palm Residency Villas",
+    "bhk": "1 BHK",
+    "location": "Ahmedabad, Gujarat",
+    "price": 19500000,
+    "avg_price": 18500000,
+    "is_villa": true,
+    "days_ago": 23,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8911205059",
+    "description": "1 BHK premium property located in Ahmedabad, Gujarat, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/147/600/400",
+      "https://picsum.photos/id/182/600/400",
+      "https://picsum.photos/id/185/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/284/800/500",
+      "https://picsum.photos/id/216/800/500",
+      "https://picsum.photos/id/292/800/500",
+      "https://picsum.photos/id/299/800/500",
+      "https://picsum.photos/id/252/800/500"
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Palm Residency Villas",
+    "bhk": "3 BHK",
+    "location": "Jaipur, Rajasthan",
+    "price": 12000000,
+    "avg_price": 11300000,
+    "is_villa": false,
+    "days_ago": 1,
+    "seller_name": "Cityscape Realty",
+    "seller_contact": "7333073422",
+    "description": "3 BHK premium property located in Jaipur, Rajasthan, developed by Cityscape Realty.",
+    "images": [
+      "https://picsum.photos/id/136/600/400",
+      "https://picsum.photos/id/125/600/400",
+      "https://picsum.photos/id/164/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/202/800/500",
+      "https://picsum.photos/id/255/800/500",
+      "https://picsum.photos/id/264/800/500",
+      "https://picsum.photos/id/248/800/500",
+      "https://picsum.photos/id/269/800/500"
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Ocean View Residency",
+    "bhk": "2 BHK",
+    "location": "Delhi, Delhi",
+    "price": 21500000,
+    "avg_price": 20500000,
+    "is_villa": true,
+    "days_ago": 21,
+    "seller_name": "Palm Developers",
+    "seller_contact": "7804126514",
+    "description": "2 BHK premium property located in Delhi, Delhi, developed by Palm Developers.",
+    "images": [
+      "https://picsum.photos/id/120/600/400",
+      "https://picsum.photos/id/108/600/400",
+      "https://picsum.photos/id/100/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/218/800/500",
+      "https://picsum.photos/id/224/800/500",
+      "https://picsum.photos/id/210/800/500",
+      "https://picsum.photos/id/287/800/500",
+      "https://picsum.photos/id/237/800/500"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Rajshree Eleven East",
+    "bhk": "2 BHK",
+    "location": "Delhi, Delhi",
+    "price": 10300000,
+    "avg_price": 10200000,
+    "is_villa": true,
+    "days_ago": 27,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "7542860684",
+    "description": "2 BHK premium property located in Delhi, Delhi, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/171/600/400",
+      "https://picsum.photos/id/199/600/400",
+      "https://picsum.photos/id/147/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/239/800/500",
+      "https://picsum.photos/id/280/800/500",
+      "https://picsum.photos/id/274/800/500",
+      "https://picsum.photos/id/228/800/500",
+      "https://picsum.photos/id/232/800/500"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Sunshine Residency",
+    "bhk": "4 BHK",
+    "location": "Chandigarh, Punjab",
+    "price": 24600000,
+    "avg_price": 24300000,
+    "is_villa": false,
+    "days_ago": 15,
+    "seller_name": "Green Valley Constructions",
+    "seller_contact": "8597807322",
+    "description": "4 BHK premium property located in Chandigarh, Punjab, developed by Green Valley Constructions.",
+    "images": [
+      "https://picsum.photos/id/148/600/400",
+      "https://picsum.photos/id/179/600/400",
+      "https://picsum.photos/id/198/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/258/800/500",
+      "https://picsum.photos/id/210/800/500",
+      "https://picsum.photos/id/213/800/500",
+      "https://picsum.photos/id/267/800/500",
+      "https://picsum.photos/id/255/800/500"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Skyline Heights",
+    "bhk": "2 BHK",
+    "location": "Hyderabad, Telangana",
+    "price": 15200000,
+    "avg_price": 14900000,
+    "is_villa": true,
+    "days_ago": 1,
+    "seller_name": "Royal Orchid Builders",
+    "seller_contact": "8262880437",
+    "description": "2 BHK premium property located in Hyderabad, Telangana, developed by Royal Orchid Builders.",
+    "images": [
+      "https://picsum.photos/id/118/600/400",
+      "https://picsum.photos/id/128/600/400",
+      "https://picsum.photos/id/192/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/247/800/500",
+      "https://picsum.photos/id/276/800/500",
+      "https://picsum.photos/id/283/800/500",
+      "https://picsum.photos/id/217/800/500",
+      "https://picsum.photos/id/234/800/500"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Green Valley Apartments",
+    "bhk": "4 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 23700000,
+    "avg_price": 23000000,
+    "is_villa": true,
+    "days_ago": 25,
+    "seller_name": "Skyline Group",
+    "seller_contact": "8783782569",
+    "description": "4 BHK premium property located in Mumbai, Maharashtra, developed by Skyline Group.",
+    "images": [
+      "https://picsum.photos/id/162/600/400",
+      "https://picsum.photos/id/110/600/400",
+      "https://picsum.photos/id/156/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/287/800/500",
+      "https://picsum.photos/id/242/800/500",
+      "https://picsum.photos/id/247/800/500",
+      "https://picsum.photos/id/275/800/500",
+      "https://picsum.photos/id/263/800/500"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Lakefront Towers",
+    "bhk": "3 BHK",
+    "location": "Chandigarh, Punjab",
+    "price": 11300000,
+    "avg_price": 10900000,
+    "is_villa": true,
+    "days_ago": 23,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8590812661",
+    "description": "3 BHK premium property located in Chandigarh, Punjab, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/183/600/400",
+      "https://picsum.photos/id/182/600/400",
+      "https://picsum.photos/id/190/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/284/800/500",
+      "https://picsum.photos/id/218/800/500",
+      "https://picsum.photos/id/218/800/500",
+      "https://picsum.photos/id/205/800/500",
+      "https://picsum.photos/id/206/800/500"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Palm Residency Villas",
+    "bhk": "1 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 26700000,
+    "avg_price": 26300000,
+    "is_villa": true,
+    "days_ago": 16,
+    "seller_name": "Hilltop Estates",
+    "seller_contact": "8675235012",
+    "description": "1 BHK premium property located in Pune, Maharashtra, developed by Hilltop Estates.",
+    "images": [
+      "https://picsum.photos/id/143/600/400",
+      "https://picsum.photos/id/112/600/400",
+      "https://picsum.photos/id/183/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/252/800/500",
+      "https://picsum.photos/id/238/800/500",
+      "https://picsum.photos/id/234/800/500",
+      "https://picsum.photos/id/278/800/500",
+      "https://picsum.photos/id/212/800/500"
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Palm Residency Villas",
+    "bhk": "2 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 22300000,
+    "avg_price": 21400000,
+    "is_villa": false,
+    "days_ago": 14,
+    "seller_name": "Sunshine Constructions",
+    "seller_contact": "9674438580",
+    "description": "2 BHK premium property located in Pune, Maharashtra, developed by Sunshine Constructions.",
+    "images": [
+      "https://picsum.photos/id/130/600/400",
+      "https://picsum.photos/id/200/600/400",
+      "https://picsum.photos/id/148/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/224/800/500",
+      "https://picsum.photos/id/253/800/500",
+      "https://picsum.photos/id/200/800/500",
+      "https://picsum.photos/id/243/800/500",
+      "https://picsum.photos/id/214/800/500"
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Palm Residency Villas",
+    "bhk": "2 BHK",
+    "location": "Delhi, Delhi",
+    "price": 20500000,
+    "avg_price": 20100000,
+    "is_villa": false,
+    "days_ago": 22,
+    "seller_name": "Ocean View Builders",
+    "seller_contact": "8977051284",
+    "description": "2 BHK premium property located in Delhi, Delhi, developed by Ocean View Builders.",
+    "images": [
+      "https://picsum.photos/id/103/600/400",
+      "https://picsum.photos/id/117/600/400",
+      "https://picsum.photos/id/120/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/295/800/500",
+      "https://picsum.photos/id/273/800/500",
+      "https://picsum.photos/id/298/800/500",
+      "https://picsum.photos/id/272/800/500",
+      "https://picsum.photos/id/206/800/500"
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Rajshree Eleven East",
+    "bhk": "4 BHK",
+    "location": "Bangalore, Karnataka",
+    "price": 27200000,
+    "avg_price": 26300000,
+    "is_villa": false,
+    "days_ago": 19,
+    "seller_name": "Sunshine Constructions",
+    "seller_contact": "7831810175",
+    "description": "4 BHK premium property located in Bangalore, Karnataka, developed by Sunshine Constructions.",
+    "images": [
+      "https://picsum.photos/id/108/600/400",
+      "https://picsum.photos/id/169/600/400",
+      "https://picsum.photos/id/170/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/253/800/500",
+      "https://picsum.photos/id/297/800/500",
+      "https://picsum.photos/id/233/800/500",
+      "https://picsum.photos/id/236/800/500",
+      "https://picsum.photos/id/209/800/500"
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Green Valley Apartments",
+    "bhk": "3 BHK",
+    "location": "Bangalore, Karnataka",
+    "price": 5300000,
+    "avg_price": 4600000,
+    "is_villa": false,
+    "days_ago": 17,
+    "seller_name": "Rajshree Builders",
+    "seller_contact": "7679055379",
+    "description": "3 BHK premium property located in Bangalore, Karnataka, developed by Rajshree Builders.",
+    "images": [
+      "https://picsum.photos/id/150/600/400",
+      "https://picsum.photos/id/136/600/400",
+      "https://picsum.photos/id/200/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/233/800/500",
+      "https://picsum.photos/id/286/800/500",
+      "https://picsum.photos/id/223/800/500",
+      "https://picsum.photos/id/212/800/500",
+      "https://picsum.photos/id/227/800/500"
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Skyline Heights",
+    "bhk": "1 BHK",
+    "location": "Hyderabad, Telangana",
+    "price": 26400000,
+    "avg_price": 26100000,
+    "is_villa": false,
+    "days_ago": 16,
+    "seller_name": "Skyline Group",
+    "seller_contact": "7568482370",
+    "description": "1 BHK premium property located in Hyderabad, Telangana, developed by Skyline Group.",
+    "images": [
+      "https://picsum.photos/id/136/600/400",
+      "https://picsum.photos/id/126/600/400",
+      "https://picsum.photos/id/180/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/262/800/500",
+      "https://picsum.photos/id/254/800/500",
+      "https://picsum.photos/id/299/800/500",
+      "https://picsum.photos/id/286/800/500",
+      "https://picsum.photos/id/227/800/500"
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Palm Residency Villas",
+    "bhk": "1 BHK",
+    "location": "Mumbai, Maharashtra",
+    "price": 17300000,
+    "avg_price": 16400000,
+    "is_villa": false,
+    "days_ago": 25,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8754937864",
+    "description": "1 BHK premium property located in Mumbai, Maharashtra, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/174/600/400",
+      "https://picsum.photos/id/106/600/400",
+      "https://picsum.photos/id/156/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/247/800/500",
+      "https://picsum.photos/id/285/800/500",
+      "https://picsum.photos/id/241/800/500",
+      "https://picsum.photos/id/223/800/500",
+      "https://picsum.photos/id/211/800/500"
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Sunshine Residency",
+    "bhk": "3 BHK",
+    "location": "Pune, Maharashtra",
+    "price": 17300000,
+    "avg_price": 16300000,
+    "is_villa": true,
+    "days_ago": 27,
+    "seller_name": "Lakefront Developers",
+    "seller_contact": "8057590302",
+    "description": "3 BHK premium property located in Pune, Maharashtra, developed by Lakefront Developers.",
+    "images": [
+      "https://picsum.photos/id/175/600/400",
+      "https://picsum.photos/id/125/600/400",
+      "https://picsum.photos/id/110/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/243/800/500",
+      "https://picsum.photos/id/210/800/500",
+      "https://picsum.photos/id/215/800/500",
+      "https://picsum.photos/id/236/800/500",
+      "https://picsum.photos/id/224/800/500"
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Hilltop Villas",
+    "bhk": "3 BHK",
+    "location": "Chandigarh, Punjab",
+    "price": 17400000,
+    "avg_price": 17300000,
+    "is_villa": false,
+    "days_ago": 5,
+    "seller_name": "Palm Developers",
+    "seller_contact": "9784648945",
+    "description": "3 BHK premium property located in Chandigarh, Punjab, developed by Palm Developers.",
+    "images": [
+      "https://picsum.photos/id/110/600/400",
+      "https://picsum.photos/id/186/600/400",
+      "https://picsum.photos/id/155/600/400"
+    ],
+    "detail_images": [
+      "https://picsum.photos/id/208/800/500",
+      "https://picsum.photos/id/219/800/500",
+      "https://picsum.photos/id/283/800/500",
+      "https://picsum.photos/id/226/800/500",
+      "https://picsum.photos/id/208/800/500"
+    ]
+  }
+]

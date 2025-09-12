@@ -1,0 +1,10 @@
+.favorites-page {
+  margin-top: 80px;
+  padding: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.favorites-page h2 {
+  margin-bottom: 20px;
+}

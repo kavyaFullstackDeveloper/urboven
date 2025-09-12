@@ -1,0 +1,131 @@
+.detail {
+    margin-top: 50px;
+     padding: 20px; }
+
+.detail h2{
+    color: #141b2a;
+}
+.back { margin-top: 10px; margin-bottom: 10px; cursor: pointer; background:none; border:none; color:blue; }
+.carousel { position: relative; max-width: 700px; margin: 20px auto; }
+.carousel img { width: 100%; height: 400px; object-fit: cover; border-radius: 8px; }
+.carousel button { position: absolute; top: 50%; background: white; border: none; padding: 6px; cursor: pointer; }
+.carousel .left { left: 10px; }
+.carousel .right { right: 10px; }
+.desc { margin: 20px 0; }
+.price { font-size: 20px; font-weight: bold; }
+
+.hero {
+  width: 99vw;
+  height: 99vh;
+  overflow: hidden;
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-carousel {
+  position: relative;
+  width: 99vw;
+  height: 99vh;
+  overflow: hidden;
+}
+.hero-carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.7);
+  border: none;
+  padding: 10px 15px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.hero-carousel .left { left: 20px; }
+.hero-carousel .right { right: 20px; }
+
+.detail-content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.detail-content h2 {
+  font-size: 28px;
+  margin-bottom: 5px;
+  color: #131217;
+}
+.detail-content .price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0066ff;
+  margin-bottom: 20px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+.gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+.contact-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.help-form {
+  margin-top: 30px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.help-form input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.help-form input:focus {
+  border-color: #00ccff;
+  box-shadow: 0 0 6px rgba(0,204,255,0.3);
+}
+.help-form button {
+  width: 100%;
+  background: linear-gradient(90deg, #00ccff, #0066ff);
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.detail-icons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px;
+  font-size: 28px;
+  cursor: pointer;
+}
+.detail-icons span:hover {
+  transform: scale(1.1);
+}
