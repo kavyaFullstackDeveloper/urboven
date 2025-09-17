@@ -36,14 +36,7 @@
 
 /* ================= HOME LAYOUT ================= */
 .home {
-  padding-top: 80px;
-  padding: 20px;
-}
-
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+  padding-top: 80px; /* space for navbar */
 }
 
 .content {
@@ -52,6 +45,31 @@
   align-items: flex-start; 
   gap: 20px;
   padding: 40px 20px;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+  height: 60vh; /* requirement */
+  background: url("https://picsum.photos/1920/1080?blur=2") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  max-width: 700px;
+  width: 90%;
+}
+
+.hero-overlay h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 /* ================= PROPERTY CARDS ================= */
@@ -112,45 +130,18 @@
   transform: translateY(-2px);
 }
 
-/* ================= HERO SECTION ================= */
-.hero {
-  height: 50vh;
-  background: url("https://picsum.photos/1920/1080?blur=2") no-repeat center center/cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-.hero-overlay {
-  background: rgba(0,0,0,0.4);
-  padding: 30px;
-  border-radius: 20px;
-  text-align: center;
-  color: white;
-}
-.hero-overlay h1 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
 /* ================= TOP RATED SECTION ================= */
 .top-rated {
-  padding: 40px 20px;
+  padding: 20px;
   background: #f9f9f9;
+  border-radius: 12px;
 }
 .top-rated h2 {
   margin-bottom: 20px;
   color: #333;
 }
-.cards {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
 
 /* ================= RESPONSIVE ================= */
-
-/* Tablets */
 @media (max-width: 1024px) {
   .content {
     flex-direction: column;
@@ -173,7 +164,6 @@
   }
 }
 
-/* Mobiles */
 @media (max-width: 600px) {
   .navbar {
     flex-direction: column;
