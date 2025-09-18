@@ -1,259 +1,284 @@
-/* Property Card Wrapper */
+/* ========== Layout Container ========== */
+.container,
+.home .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* ========== Card Shell ========== */
 .property-card {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 420px 1fr; /* fixed media + flexible info */
+  gap: 0;
   width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  margin-bottom: 20px;
-  background: white;
-  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+  margin: 18px 0;
+  background: #fff;
   position: relative;
   overflow: hidden;
-  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .property-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transform: translateY(-3px);
+  border-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
 }
 
-/* Property Images + Carousel */
+/* ========== Media Panel (Left) ========== */
 .property-img {
   position: relative;
-  width: 40%;
-  min-height: 240px;
+  width: 100%;
+  min-height: 320px;
+  background: #000;
+  border-radius: 16px 0 0 16px;
+  overflow: hidden;
 }
 
+/* Limit carousel container inside card */
+.property-img.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;        /* lock to card width */
+  height: 100%;       /* match parent height */
+  max-width: 100%;    /* never overflow screen */
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+/* Slides take full container */
+.property-img.carousel .viewport,
+.property-img.carousel .track,
+.property-img.carousel .slide {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* Image scaling */
+.property-img.carousel .slide img,
 .property-img img {
   width: 100%;
   height: 100%;
-  max-height: 290px;
-  object-fit: cover;
-  border-radius: 12px 0 0 12px;
+  max-width: 100%;      /* keep inside */
+  max-height: 100%;     /* stop overflow */
+  object-fit: cover;    /* crop nicely */
+  object-position: center;
+  display: block;
+}
+.property-img.carousel .track {
+  display: flex;
+  transition: transform 480ms cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
 }
 
-/* Navigation arrows inside carousel */
-.nav-btn {
+.property-img.carousel .slide {
+  flex: 0 0 100%;
+}
+
+.property-img.carousel .slide img,
+.property-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* clean scale */
+  object-position: center;
+  display: block;
+  border: 0;
+  margin: 0;
+  transform: translateZ(0);
+}
+
+/* Soft depth overlay */
+.property-img.carousel::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08) 0%, rgba(0, 0, 0, 0) 30%);
+  z-index: 1;
+}
+
+/* Controls */
+.property-img.carousel .nav {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.85);
-  border: none;
-  font-size: 22px;
-  padding: 6px 10px;
-  cursor: pointer;
+  z-index: 2;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
-  transition: background 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(20, 20, 20, 0.4);
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  backdrop-filter: blur(3px);
+  transition: background 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+}
+.property-img.carousel .nav.left {
+  left: 12px;
+}
+.property-img.carousel .nav.right {
+  right: 12px;
+}
+.property-img.carousel .nav:hover {
+  background: rgba(20, 20, 20, 0.6);
+  border-color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-50%) scale(1.06);
 }
 
-.nav-btn:hover {
-  background: #f1f1f1;
-}
-
-.nav-btn.left { left: 10px; }
-.nav-btn.right { right: 10px; }
-
-/* Property Info Section */
-.property-info {
-  padding: 16px;
-  flex: 1;
+/* Dots */
+.property-img.carousel .dots {
+  position: absolute;
+  bottom: 12px;
+  left: 0;
+  right: 0;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  gap: 8px;
+  justify-content: center;
+  z-index: 2;
+}
+.property-img.carousel .dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.18) inset;
+  cursor: pointer;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+.property-img.carousel .dot.active {
+  background: #fff;
+  transform: scale(1.25);
+}
+
+/* ========== Info Panel (Right) ========== */
+.property-info {
+  padding: 18px;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  gap: 10px;
+}
+
+.property-info .days {
+  color: #6b7280;
+  font-size: 12px;
 }
 
 .property-info h3 {
-  margin: 0 0 6px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #333;
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.3;
+  color: #0f172a;
 }
 
 .property-info p {
-  margin: 4px 0;
-  color: #555;
+  margin: 0;
+  color: #374151;
   font-size: 14px;
 }
 
-.price {
-  font-weight: bold;
-  margin-top: 6px;
+.property-info .price {
+  font-weight: 700;
   font-size: 16px;
-  color: #0066ff;
+  color: #0ea5e9;
+  margin-top: 4px;
 }
 
-.avg {
-  color: gray;
+.property-info .avg {
+  color: #6b7280;
   font-size: 13px;
 }
 
-/* Seller Info */
+.property-info hr {
+  border: none;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.06);
+  margin: 8px 0;
+}
+
 .seller {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
 }
-
 .seller button {
   background: #28a745;
-  color: white;
+  color: #fff;
   border: none;
-  padding: 6px 12px;
+  padding: 7px 14px;
   border-radius: 6px;
   cursor: pointer;
   font-size: 14px;
-  font-weight: 500;
-  transition: background 0.3s ease;
+  font-weight: 600;
+  transition: background 0.2s ease, transform 0.1s ease;
 }
-
 .seller button:hover {
   background: #218838;
+  transform: translateY(-1px);
 }
 
-/* Favorite Icon */
+/* Favorite badge */
 .fav-icon {
   position: absolute;
   top: 12px;
   right: 12px;
-  font-size: 24px;
+  font-size: 22px;
   cursor: pointer;
-  z-index: 10;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 5;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.35);
 }
 
-/* Responsive Design */
+/* ========== Responsive ========== */
+@media (max-width: 1200px) {
+  .property-card {
+    grid-template-columns: 380px 1fr;
+  }
+}
 @media (max-width: 1024px) {
   .property-card {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
-
   .property-img {
     width: 100%;
-    height: 220px;
+    aspect-ratio: 16/9;
+    border-radius: 16px 16px 0 0;
   }
-
-  .property-img img {
-    border-radius: 12px 12px 0 0;
+  .property-img.carousel {
+    border-radius: 16px 16px 0 0;
   }
-
   .property-info {
-    padding: 12px;
+    padding: 16px;
   }
 }
-
 @media (max-width: 600px) {
+  .property-img {
+    aspect-ratio: 4/3;
+  }
   .property-info h3 {
     font-size: 16px;
   }
-
   .property-info p,
   .price,
   .avg {
     font-size: 13px;
   }
-
   .seller button {
     padding: 5px 10px;
     font-size: 12px;
   }
 }
 
-
-/* Property Images + Carousel */
-.property-img {
-  position: relative;
-  width: 40%;
-  min-height: 240px;
-  /* remove fixed gray backgrounds — let images define visuals */
-  background: transparent;
+/* ========== Fix global clashes ========== */
+.carousel img {
+  height: auto !important;
+  border-radius: 0 !important;
 }
-
 .property-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* inherit the card’s left-side radius */
-  border-radius: 12px 0 0 12px;
+  max-height: none !important;
 }
-
-/* Modern card shell */
-.property-card {
-  display: flex;
-  gap: 0;
-  width: 100%;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.10);
-  margin-bottom: 22px;
-  background: #fff;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
-}
-
-.property-card:hover {
-  transform: translateY(-2px);
-  border-color: rgba(0,0,0,0.10);
-  box-shadow: 0 16px 36px rgba(0,0,0,0.12);
-}
-/* Media panel */
-.property-img {
-  position: relative;
-  width: 42%;
-  min-height: 260px;
-  background: #111; /* deep backdrop to avoid gray flash */
-}
-
-/* Carousel container with perfect corners */
-.property-img.carousel {
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  border-radius: 16px 0 0 16px;
-  isolation: isolate; /* keep overlays neat */
-}
-
-/* Subtle top gradient for depth */
-.property-img.carousel::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, rgba(0,0,0,0.10) 0%, rgba(0,0,0,0) 30%);
-  z-index: 1;
-}
-
-/* Viewport and track */
-.property-img.carousel .viewport {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.property-img.carousel .track {
-  display: flex;
-  height: 100%;
-  transition: transform 480ms cubic-bezier(.22,.61,.36,1);
-}
-
-.property-img.carousel .slide {
-  flex: 0 0 100%;
-  width: 100%;
-  height: 100%;
-}
-
-.property-img.carousel .slide img,
-.property-img img {
-  width: 100% !important;
-  height: 100% !important;
-  max-height: none !important;     /* kill the 290px cap */
-  object-fit: cover !important;
-  object-position: center !important;
-  border-radius: 0 !important;     /* container handles radius */
-}
-
