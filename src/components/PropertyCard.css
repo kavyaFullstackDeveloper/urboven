@@ -247,10 +247,19 @@
   height: 100%;
 }
 
-.property-img.carousel .slide img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  transform: scale(1.01); /* avoid hairline gaps on GPU transforms */
+.property-img.carousel .slide img,
+.property-img img {
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;     /* kill the 290px cap */
+  object-fit: cover !important;
+  object-position: center !important;
+  border-radius: 0 !important;     /* container handles radius */
 }
+
+.property-img { min-height: 300px; }                  /* desktop */
+.property-img.carousel .viewport,
+.property-img.carousel .track,
+.property-img.carousel .slide { height: 100%; }       /* parents have height */
+/* Kill old global selector if present elsewhere */
+.carousel img { height: auto !important; }
