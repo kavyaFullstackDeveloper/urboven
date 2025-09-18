@@ -15,7 +15,7 @@ export default function Home() {
   const perPage = 10;
   const navigate = useNavigate();
 
-  // Apply client-side filtering and sorting on the page data we have
+
   const items = useMemo(() => {
     let out = rawItems;
 
@@ -35,7 +35,7 @@ export default function Home() {
       case "price_desc": out = [...out].sort((a,b) => Number(b.price) - Number(a.price)); break;
       case "title_asc": out = [...out].sort((a,b) => (a.title||"").localeCompare(b.title||"")); break;
       case "title_desc": out = [...out].sort((a,b) => (b.title||"").localeCompare(a.title||"")); break;
-      default: break; // relevance (leave order)
+      default: break; 
     }
     return out;
   }, [rawItems, query, filters]);
@@ -45,7 +45,7 @@ export default function Home() {
     setLoading(true);
     try {
       const p = reset ? 1 : page;
-      const data = await fetchProperties({ q: "", page: p, pageSize: perPage }); // server fetch no filter; client filters below
+      const data = await fetchProperties({ q: "", page: p, pageSize: perPage }); 
       const newItems = Array.isArray(data) ? data : (data.results || []);
       setRawItems((prev) => (reset ? newItems : [...prev, ...newItems]));
       setHasNext(Array.isArray(data) ? newItems.length === perPage : Boolean(data.next));
@@ -56,14 +56,13 @@ export default function Home() {
   }, [page, loading]);
 
   const handleSearch = (cleared = false) => {
-    // Start a new search — reset fetched pages and load first page
     setRawItems([]);
     setPage(1);
     setHasNext(true);
     loadPage(true);
   };
 
-  useEffect(() => { loadPage(true); }, []); // initial fetch
+  useEffect(() => { loadPage(true); }, []); 
 
   useEffect(() => {
     const onScroll = () => {

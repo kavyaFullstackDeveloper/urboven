@@ -19,7 +19,7 @@ export async function fetchProperty(id) {
   return getJSON(`${API_BASE}/api/properties/${id}/`);
 }
 
-// Auth API
+
 export async function apiRegister({ name, email, password }) {
   const res = await fetch(`${API_BASE}/api/register/`, {
     method: "POST",

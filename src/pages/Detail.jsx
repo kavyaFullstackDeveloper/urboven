@@ -4,6 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { fetchProperty } from "../api";
 import "./Detail.css";
 import { toggleFavorite, isFavorite } from "../utils/favorites";
+import { API_BASE } from "../api";
 
 export default function Detail() {
   const { id } = useParams();
@@ -11,6 +12,12 @@ export default function Detail() {
   const [property, setProperty] = useState(null);
   const [idx, setIdx] = useState(0);
   const [fav, setFav] = useState(false);
+  
+const seededPics = (id, count = 5) =>
+  Array.from({ length: count }, (_, k) => {
+    const pic = (Number(id) * 37 + 11 + k * 17) % 300; // stable per id
+    return `https://picsum.photos/id/${pic}/800/500`;
+  });
 
   useEffect(() => {
     let ignore = false;
@@ -30,21 +37,37 @@ export default function Detail() {
     setFav(!fav);
   };
 
-  const next = () => setIdx((i) => (i + 1) % (property.detail_images?.length || 1));
-  const prev = () => setIdx((i) => (i - 1 + (property.detail_images?.length || 1)) % (property.detail_images?.length || 1));
+ const gallery =
+  Array.isArray(property.detail_images) && property.detail_images.length
+    ? property.detail_images
+    : property.image_url
+    ? [property.image_url]
+    : seededPics(property.id, 5);
+
+const next = () => setIdx((i) => (i + 1) % (gallery.length || 1));
+const prev = () => setIdx((i) => (i - 1 + (gallery.length || 1)) % (gallery.length || 1));
 
   return (
     <div className="detail">
       <button onClick={() => navigate(-1)} className="back">← Back</button>
       <h2>{property.title}</h2>
-      <p>{property.bhk} • {property.location}</p>
+      <p>{property.bedrooms} BHK • {property.location}</p>
 
       <div className="hero-carousel">
-        {property.detail_images?.length ? (
+        {gallery.length ? (
           <>
-            <img src={property.detail_images[idx]} alt={property.title} />
-            <button className="left" onClick={prev}>‹</button>
-            <button className="right" onClick={next}>›</button>
+           <img
+  src={gallery[idx]}
+  alt={property.title}
+  onError={(e) => {
+    const seeds = seededPics(property.id, 5);
+    e.currentTarget.src = seeds[idx % seeds.length];
+  }}
+/>
+            {gallery.length > 1 && <>
+              <button className="left" onClick={prev}>‹</button>
+              <button className="right" onClick={next}>›</button>
+            </>}
           </>
         ) : null}
       </div>
@@ -56,7 +79,7 @@ export default function Detail() {
 
       <div className="detail-content">
         <h2>{property.title}</h2>
-        <p>{property.bhk} • {property.location}</p>
+        <p>{property.bedrooms} BHK • {property.location}</p>
         <p className="price">₹{Number(property.price).toLocaleString()} {property.is_villa ? "Villa" : "Flat"}</p>
 
         <h3>Description</h3>
@@ -64,8 +87,19 @@ export default function Detail() {
 
         <h3>Gallery</h3>
         <div className="gallery">
-          {property.detail_images?.map((img, i) => <img key={i} src={img} alt="gallery" />)}
-        </div>
+  {gallery.map((img, i) => (
+    <img
+      key={i}
+      src={img}
+      alt="gallery"
+      onError={(e) => {
+        const seeds = seededPics(property.id, 5);
+        e.currentTarget.src = seeds[i % seeds.length];
+      }}
+    />
+  ))}
+</div>
+
 
         <h3>Seller Info</h3>
         <div className="contact-card">

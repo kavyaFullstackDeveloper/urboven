@@ -1,4 +1,4 @@
-// src/pages/Auth.jsx
+
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { getUser, setUser as setUserStore, setToken } from "../utils/auth";
@@ -8,12 +8,12 @@ import "./Auth.css";
 export default function Auth({ setUser }) {
   const navigate = useNavigate();
   const location = useLocation();
-  const [mode, setMode] = useState("login"); // 'login' | 'signup'
+  const [mode, setMode] = useState("login"); 
   const [form, setForm] = useState({ name: "", email: "", password: "" });
 
-  const user = getUser(); // read once per render
+  const user = getUser(); 
 
-  // If a redirect target was provided (e.g., when guarding routes), capture it
+  
   const next = (location.state && location.state.next) || "/";
 
   const handleSubmit = async (e) => {
@@ -33,7 +33,7 @@ export default function Auth({ setUser }) {
     }
   };
 
-  // When already logged in, show a welcome and a button to continue home
+ 
   if (user) {
     return (
       <div className="auth-page">
@@ -46,7 +46,7 @@ export default function Auth({ setUser }) {
     );
   }
 
-  // Otherwise render login/signup form
+  
   return (
     <div className="auth-page">
       <div className="auth-card">
