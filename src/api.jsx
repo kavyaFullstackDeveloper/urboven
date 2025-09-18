@@ -1,5 +1,4 @@
-// src/api.js
-const API_BASE = import.meta.env.VITE_API_BASE || "https://urboven-backend-1.onrender.com";
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://urboven-backend-1.onrender.com";
 
 // Generic GET
 async function getJSON(url, opts = {}) {
@@ -38,7 +37,7 @@ export async function apiLogin({ email, password }) {
   const res = await fetch(`${API_BASE}/api/token/`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ username: email, password }),
+    body: JSON_STRINGIFY({ username: email, password }),
   });
   if (!res.ok) throw new Error("Invalid credentials");
   return res.json(); // {access, refresh}
