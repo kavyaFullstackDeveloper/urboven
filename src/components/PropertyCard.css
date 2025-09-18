@@ -201,65 +201,53 @@
   border-color: rgba(0,0,0,0.10);
   box-shadow: 0 16px 36px rgba(0,0,0,0.12);
 }
-/* Media panel */
+/* ---- FINAL OVERRIDES: Carousel images fill panel, no gaps ---- */
+
+/* Ensure the media panel defines height on desktop */
 .property-img {
-  position: relative;
-  width: 42%;
-  min-height: 260px;
-  background: #111; /* deep backdrop to avoid gray flash */
+  width: 42% !important;
+  min-height: 300px !important;
+  padding: 0 !important;
+  background: #000 !important;
+  border-radius: 16px 0 0 16px !important;
 }
 
-/* Carousel container with perfect corners */
-.property-img.carousel {
-  position: relative;
-  overflow: hidden;
-  height: 100%;
-  border-radius: 16px 0 0 16px;
-  isolation: isolate; /* keep overlays neat */
-}
-
-/* Subtle top gradient for depth */
-.property-img.carousel::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, rgba(0,0,0,0.10) 0%, rgba(0,0,0,0) 30%);
-  z-index: 1;
-}
-
-/* Viewport and track */
-.property-img.carousel .viewport {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.property-img.carousel .track {
-  display: flex;
-  height: 100%;
-  transition: transform 480ms cubic-bezier(.22,.61,.36,1);
-}
-
-.property-img.carousel .slide {
-  flex: 0 0 100%;
-  width: 100%;
-  height: 100%;
-}
-
-.property-img.carousel .slide img,
-.property-img img {
-  width: 100% !important;
-  height: 100% !important;
-  max-height: none !important;     /* kill the 290px cap */
-  object-fit: cover !important;
-  object-position: center !important;
-  border-radius: 0 !important;     /* container handles radius */
-}
-
-.property-img { min-height: 300px; }                  /* desktop */
+/* Parents all take full height so img:100% has a reference */
+.property-img.carousel { height: 100% !important; overflow: hidden !important; border-radius: inherit !important; }
 .property-img.carousel .viewport,
 .property-img.carousel .track,
-.property-img.carousel .slide { height: 100%; }       /* parents have height */
-/* Kill old global selector if present elsewhere */
-.carousel img { height: auto !important; }
+.property-img.carousel .slide { height: 100% !important; }
+
+/* The only image rule that should apply */
+.property-img.carousel .slide img,
+.property-img img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-height: none !important;      /* kill legacy 290px cap */
+  object-fit: cover !important;     /* fill panel completely */
+  object-position: center !important;
+  border: 0 !important;
+  margin: 0 !important;
+  border-radius: 0 !important;      /* container handles rounded corners */
+  transform: translateZ(0);         /* prevent hairline gaps */
+}
+
+/* Neutralize any global carousel image rule coming from elsewhere */
+.carousel img { height: auto !important; border-radius: 0 !important; }
+
+/* Keep corners perfect across breakpoints */
+@media (max-width: 1024px) {
+  .property-card { flex-direction: column; }
+  .property-img {
+    width: 100% !important;
+    min-height: 0 !important;
+    aspect-ratio: 16 / 9 !important;   /* tall, premium mobile hero */
+    border-radius: 16px 16px 0 0 !important;
+  }
+  .property-img.carousel { border-radius: 16px 16px 0 0 !important; }
+}
+
+@media (max-width: 600px) {
+  .property-img { aspect-ratio: 4 / 3 !important; }  /* slightly taller on phones */
+}
